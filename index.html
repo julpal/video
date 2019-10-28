@@ -138,8 +138,8 @@
 		// Use setProperty to change the grayscale filter and transform properties of the video.
 		// Log what the new values are to the console.
 		var random = Math.random();
-		vid.style.setProperty('filter', 'grayscale' + (random));
-		vid.style.setProperty('transform', 'skewX' + (random));
+		vid.style.setProperty('filter', 'grayscale(' + random + '%)');
+		vid.style.setProperty('transform', 'skewX(' + random + ')');
 		console.log(random);
 	}
 
